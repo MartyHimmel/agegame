@@ -1,0 +1,20 @@
+#game_canvas {
+	display: inline-block;
+	width: 60%;
+	min-width: 640px;
+}
+
+#credits {
+	display: inline-block;
+	width: 36%;
+	vertical-align: top;
+}
+
+#overlay {
+	z-index: 10;
+	background-color: #000000;
+	opacity: 0.0;
+	min-width: 640px;
+	height: 480px;
+	position: absolute;
+}
